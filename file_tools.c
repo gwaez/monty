@@ -1,8 +1,6 @@
 #include "monty.h"
 
 /**
- * ## Author ✍️
- * - Ahmed Mahmoud - [@gwaez](https://github.com/gwaez)
  * open_file - opens a file
  * @file_name: the file namepath
  * Return: void
