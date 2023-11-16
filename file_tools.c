@@ -123,14 +123,14 @@ void find_func(char *opcode, char *value, int ln, int format)
 
 /**
  * call_fun - Calls the required function.
- * @funcgz: Pointer to the function that is about to be called.
+ * @func: Pointer to the function that is about to be called.
  * @gwz_op: string representing the opcode.
  * @val_gz: string representing a numeric value.
  * @ln: line numeber for the instruction.
  * @format: Format specifier. If 0 Nodes will be entered as a stack.
  * if 1 nodes will be entered as a queue.
  */
-void call_fun(op_func funcgz, char *gwz_op, char *val_gz, int ln, int format)
+void call_fun(op_func func, char *gwz_op, char *val_gz, int ln, int format)
 {
 	stack_t *node;
 	int flag;
@@ -153,11 +153,11 @@ void call_fun(op_func funcgz, char *gwz_op, char *val_gz, int ln, int format)
 		}
 		node = create_node(atoi(val_gz) * flag);
 		if (format == 0)
-			funcgz(&node, ln);
+			func(&node, ln);
 		if (format == 1)
 			add_to_queue(&node, ln);
 	}
 	else
-		funcgz(&head, ln);
+		func(&head, ln);
 }
 
