@@ -1,6 +1,8 @@
 #include "monty.h"
 
 /**
+ * ## Author ✍️
+ * - Ahmed Mahmoud - [@gwaez](https://github.com/gwaez)
  * err - Prints appropiate error messages determined by their error code.
  * @err_g_code: The error codes are the following:
  * (1) => The user does not give any file or more than one file to the program.

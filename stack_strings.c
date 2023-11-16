@@ -1,6 +1,8 @@
 #include "monty.h"
 
 /**
+ * ## Author ✍️
+ * - Ahmed Mahmoud - [@gwaez](https://github.com/gwaez)
  * print_char - Prints the Ascii value.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.

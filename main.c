@@ -2,6 +2,8 @@
 stack_t *head = NULL;
 
 /**
+ * ## Author ✍️
+ * - Ahmed Mahmoud - [@gwaez](https://github.com/gwaez)
  * main - entry point
  * @argc: arguments count
  * @argv: list of arguments

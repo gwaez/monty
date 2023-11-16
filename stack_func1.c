@@ -2,6 +2,8 @@
 
 
 /**
+ * ## Author ✍️
+ * - Ahmed Mahmoud - [@gwaez](https://github.com/gwaez)
  * add_to_stack - Adds a node to the stack.
  * @new_node: Pointer to the new node.
  * @ln: Interger representing the line number of of the opcode.
